@@ -22,7 +22,7 @@ Funkload instructions (on client) :
     python setup.py install
     
     # run test and bench
-    sh prepare.sh
+    # run prepare.sh on server
     sh test.sh
     sh prepare.sh
     sh bench.sh
