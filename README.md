@@ -23,7 +23,7 @@ Funkload instructions (on client) :
     
     # run test and bench
     # run prepare.sh on server
-    sh test.sh
-    sh prepare.sh
-    sh bench.sh
-    sh build_report.sh
+    make test
+    # run prepare.sh on server
+    make bench
+    make report
